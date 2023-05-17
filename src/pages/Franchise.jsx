@@ -1,13 +1,13 @@
 import React from 'react';
-import Banner from '../components/shared/banner/Banner';
-import img from '../assets/CONTACT-US.jpg';
-import img2 from '../assets/director-img.jpg';
+// import Banner from '../components/shared/banner/Banner';
+// import img from '../assets/CONTACT-US.jpg';
+// import img2 from '../assets/director-img.jpg';
 import img3 from '../assets/local9.png';
-import n1 from '../assets/one.png';
-import n2 from '../assets/two.png';
-import n3 from '../assets/three.png';
-import n4 from '../assets/four.png';
-import check from '../assets/check.png';
+// import n1 from '../assets/one.png';
+// import n2 from '../assets/two.png';
+// import n3 from '../assets/three.png';
+// import n4 from '../assets/four.png';
+// import check from '../assets/check.png';
 
 const Franchise = () => {
 	return (
