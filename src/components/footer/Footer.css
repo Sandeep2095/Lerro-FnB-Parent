@@ -1,0 +1,28 @@
+.mainFooter {
+	background: #020306f0;
+	padding: 50px;
+	color: white;
+}
+
+.foot-add {
+	padding: 15px;
+}
+
+.foot-add a {
+	text-decoration: none;
+}
+
+.mainFooter > strong,
+a {
+	color: #fcb21b !important;
+	text-decoration: none !important;
+}
+
+strong {
+	color: #fcb21b !important;
+}
+
+.social-icons a {
+	text-decoration: none;
+	color: #fcb21b !important;
+}

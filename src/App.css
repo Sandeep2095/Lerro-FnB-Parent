@@ -1,0 +1,341 @@
+@font-face {
+	font-family: 'Prague';
+	src: url(fonts/Prague\ Regular.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+p {
+	font-family: 'Montserrat' sans-serif;
+}
+
+h2 {
+	font-family: 'Prague';
+}
+
+.banner-content {
+	line-height: 35px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	padding-right: 5px;
+	text-align: justify;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+}
+
+.welcome-banner-image {
+	width: 355px;
+	height: 380px;
+}
+
+.aboutus-banner-image {
+	width: 355px;
+}
+
+.btn {
+	display: inline-block;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #fbac29;
+	border-radius: 4px;
+	padding: 10px 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ml-1 {
+	padding-top: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.welcome-btn {
+	margin: 100px 0 10px;
+}
+
+.profile-container::after {
+	width: 100%;
+	position: absolute;
+	left: 0;
+
+	content: '';
+	height: 100%;
+	background: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0) 0,
+		rgba(0, 0, 0, 0.08) 69%,
+		rgba(0, 0, 0, 0.76) 100%
+	);
+	top: 0;
+	transition: all 0.5s ease 0s;
+}
+
+.profile-container:hover::after {
+	background: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0.01) 0,
+		rgba(0, 0, 0, 0.09) 11%,
+		rgba(0, 0, 0, 0.12) 13%,
+		rgba(0, 0, 0, 0.19) 20%,
+		rgba(0, 0, 0, 0.29) 28%,
+		rgba(0, 0, 0, 0.29) 29%,
+		rgba(0, 0, 0, 0.42) 38%,
+		rgba(0, 0, 0, 0.46) 43%,
+		rgba(0, 0, 0, 0.53) 47%,
+		rgba(0, 0, 0, 0.75) 69%,
+		rgba(0, 0, 0, 0.87) 84%,
+		rgba(0, 0, 0, 0.98) 99%,
+		rgba(0, 0, 0, 0.94) 100%
+	);
+}
+
+.profile-container:hover .profile-content-box {
+	transform: translateY(-35px);
+}
+
+.profile-content-box {
+	padding: 0px;
+	margin-bottom: 5px;
+	bottom: 0;
+	z-index: 1;
+	font-family: 'Poppins';
+	transition: all ease-in-out 400ms;
+}
+
+.why-2 {
+	background-image: url(./assets/homePage.png);
+	width: 100%;
+}
+
+.why-3 {
+	background-image: url(./assets/gamebanner.jpg);
+}
+
+.mt-20 {
+	margin-top: 102px;
+}
+
+/* Careers Page */
+.careers-style {
+	padding: 2%;
+	padding-right: 85px;
+	padding-left: 85px;
+}
+
+.form-group {
+	margin-bottom: 1rem;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+}
+
+.card-title {
+	margin-bottom: 0.75rem;
+}
+
+.card-body {
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 1.25rem;
+}
+
+/* Careers Page */
+
+/* Start Franchise Page */
+.franchise-top-banner {
+	position: relative;
+}
+
+.franchise-top-form {
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	width: 35%;
+}
+
+.why-choose-content {
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 25px;
+	padding-bottom: 30px;
+	font-size: 11px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	width: 47%;
+	height: 250px;
+	margin: 1px;
+}
+
+.why-choose-points {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 40px;
+	margin-left: -50px;
+}
+
+.why-choose {
+	color: black;
+	background-color: #ffad00;
+	padding: 50px;
+}
+
+.why-choose-content {
+	font-size: 11px;
+}
+
+.image-right {
+	text-align: center !important;
+}
+
+.our-services {
+	font-family: 'Merriweather', serif;
+	letter-spacing: 2px;
+	font-size: 60px;
+	color: #feaf00;
+}
+
+.providing-service {
+	color: white;
+	letter-spacing: 2px;
+	line-height: 25px;
+}
+
+.service-points {
+	color: #feaf00;
+	line-height: 32px;
+	word-spacing: 2px;
+	font-size: 13px !important;
+}
+
+.bullets {
+	color: white;
+	font-family: 'Prague';
+}
+
+.service-points ul,
+li {
+	margin: 0 0 0 25px;
+}
+
+.text-left {
+	text-align: left !important;
+}
+
+.foco {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: -90px;
+	color: #fab207;
+	font-size: 24px;
+}
+
+.faq-1 {
+	margin-top: 40px;
+}
+
+.faq-2 {
+	margin-bottom: 0px !important;
+	font-family: 'Merriweather', serif;
+}
+
+.check {
+	height: 24px;
+	padding-right: 10px;
+}
+
+.accordion {
+	background-color: #fff;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 13px;
+	transition: 0.4s;
+}
+
+.active {
+	background-color: #fff;
+}
+
+.panel {
+	padding: 0 54px;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+}
+
+/* End Franchise Page */
+
+.contact-form-input-container > input {
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.address-div > * {
+	line-height: 28px;
+	font-weight: 300;
+	font-family: 'Poppins';
+	letter-spacing: 1px;
+}
+
+.address-div > h6 {
+	margin-bottom: 0px;
+	font-weight: 400;
+}
+
+.yell {
+	color: #fcb21b !important;
+}
+
+@media screen and (max-width: 900px) {
+	.img-fluid {
+		width: 100%;
+		height: auto;
+	}
+	.welcome-btn {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+
+	.franchise-top-form {
+		width: 100%;
+		left: 0%;
+		top: 15%;
+		padding: 0 20px;
+	}
+	.banner-div {
+		min-height: 1000px !important;
+	}
+	.banner-content {
+		padding: 0 20px;
+		font-size: 14px;
+		word-spacing: 0px;
+		line-height: 20px;
+	}
+}
