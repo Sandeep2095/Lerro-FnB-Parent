@@ -9,24 +9,24 @@ const Navbar = () => {
 			link: '',
 		},
 		{
-			title: 'our team',
-			link: 'ourteam',
+			title: 'about us',
+			link: 'aboutus',
 		},
 		{
 			title: 'brands',
 			link: 'brands',
 		},
 		{
-			title: 'about us',
-			link: 'aboutus',
-		},
-		{
-			title: 'careers',
-			link: 'careers',
+			title: 'our team',
+			link: 'ourteam',
 		},
 		{
 			title: 'contact',
 			link: 'contact',
+		},
+		{
+			title: 'careers',
+			link: 'careers',
 		},
 		{
 			title: 'franchise',
@@ -54,7 +54,7 @@ const Navbar = () => {
 
 				<div className='collapse navbar-collapse' id='navbarNav'>
 					<div className='mx-auto'></div>
-					<ul style={{ alignItems: 'center' }} className='navbar-nav'>
+					<ul style={{ alignItems: 'right' }} className='navbar-nav'>
 						{navLinks.map((nav) => (
 							<li
 								className={`nav-item ${nav.title === 'franchise' && 'franchise-link'}`}

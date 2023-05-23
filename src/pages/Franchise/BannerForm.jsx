@@ -1,6 +1,5 @@
 import React from 'react';
 import img from '../../assets/CONTACT-US.jpg';
-import Banner from '../../components/shared/banner/Banner';
 
 const BannerForm = () => {
 	return (

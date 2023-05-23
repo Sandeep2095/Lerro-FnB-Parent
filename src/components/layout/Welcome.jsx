@@ -24,7 +24,13 @@ const Welcome = () => {
 							</p>
 							<div class='row justify-content-around mt-0'>
 								<div class='col-md-8 text-center welcome-btn'>
-									<a class='btn wbtn' href='/franchising'>
+									<a
+										href='#!'
+										target='_blank'
+										rel='noreferrer'
+										class='btn wbtn '
+										style={{ color: '#fff' }}
+									>
 										JOIN THE JOURNEY
 									</a>
 								</div>
@@ -33,7 +39,7 @@ const Welcome = () => {
 						<div className='col-md-5 text-center'>
 							<img
 								src={image1}
-								alt='welcome-image'
+								alt='wel_img'
 								style={{
 									boxShadow:
 										'0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',

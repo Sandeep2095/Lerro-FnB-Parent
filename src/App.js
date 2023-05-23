@@ -16,6 +16,8 @@ import Aboutus from './pages/Aboutus';
 import Careers from './pages/Careers';
 import ContactUs from './pages/ContactUs';
 import Franchise from './pages/Franchise';
+import ExploreOurBrands from './components/layout/ExploreOurBrands';
+import GoTop from './components/GoTop';
 
 function App() {
 	return (
@@ -29,6 +31,7 @@ function App() {
 							<Hero />
 							<Welcome />
 							<Experience />
+							<ExploreOurBrands />
 						</>
 					}
 				/>
@@ -40,6 +43,7 @@ function App() {
 				<Route path='/contact' element={<ContactUs />} />
 				<Route path='/franchise' element={<Franchise />} />
 			</Routes>
+			<GoTop />
 			<Footer />
 		</div>
 	);

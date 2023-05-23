@@ -1,5 +1,5 @@
 import React from 'react';
-import check from '../../assets/check.png';
+
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const Faqs = () => {
