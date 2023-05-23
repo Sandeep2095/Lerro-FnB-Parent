@@ -13,7 +13,7 @@ const OurService = () => {
 				<div class='container' style={{ backgroundColor: '#22222c' }}>
 					<div class='row'>
 						<div class='col-lg-1'></div>
-						<div class='col-lg-5' style={{ padding: '60px' }}>
+						<div class='col-lg-5' style={{ padding: '60px 30px 0 30px' }}>
 							<div class='row'>
 								<h1 class='our-services ml-1'>
 									{' '}
@@ -21,14 +21,14 @@ const OurService = () => {
 									<br />
 									SERVICES
 								</h1>
-								<p class='providing-service banner-content'>
+								<p class='providing-service'>
 									Providing the ace of all the trades and progressing with proficiency of
 									running a restaurant, the team at First Fiddle Restaurants believes in
 									360 (degree symbol) excellence.
 								</p>
 							</div>
 						</div>
-						<div class='col-lg-5 ml-1' style={{ padding: '60px' }}>
+						<div class='col-lg-5 ml-1' style={{ padding: '60px 30px' }}>
 							<div class='row'>
 								<h3
 									style={{

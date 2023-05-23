@@ -1,12 +1,13 @@
 import React from 'react';
+import img from '../../assets/CONTACT-US.jpg';
+import Banner from '../../components/shared/banner/Banner';
 
 const BannerForm = () => {
 	return (
 		<div>
 			<section>
 				<div className='franchise-top-banner'>
-					<Banner bgImg={img} className='banner-div' />
-
+					<img src={img} alt='' />
 					<div class='franchise-top-form'>
 						<div class='row'>
 							<div class='col-6 col-12 ml-auto'>

@@ -1,15 +1,16 @@
 import React from 'react';
+import n1 from '../../assets/one.png';
+import n2 from '../../assets/two.png';
+import n3 from '../../assets/three.png';
+import n4 from '../../assets/four.png';
 
 const WhyChoose = () => {
 	return (
 		<div>
-			<div class='container why-choose-4' style={{ padding: '60px 0px' }}>
+			<div class='container why-choose-4 mb-5'>
 				<div class='row'>
-					<div class='col-lg-4 why-choose-3' style={{ marginLeft: '30px' }}>
-						<div
-							class='why-choose text-left'
-							style={{ color: 'black', backgroundColor: '#ffad00', padding: '50px' }}
-						>
+					<div class='col-lg-4 why-choose-3'>
+						<div class='why-choose text-left'>
 							<h2
 								class='why-choose-2'
 								style={{ fontFamily: ('Montserrat', 'serif'), letterSpacing: '2px' }}

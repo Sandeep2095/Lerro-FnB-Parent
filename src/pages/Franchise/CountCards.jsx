@@ -1,9 +1,13 @@
 import React from 'react';
 
+
 const CountCards = () => {
 	return (
 		<div>
-			<div class='container-fluid' style={{ backgroundColor: '#ececec' }}>
+			<div
+				class='container-fluid'
+				style={{ backgroundColor: '#ececec', padding: '60px 0' }}
+			>
 				<div class='container' style={{ backgroundColor: '#ececec' }}>
 					<div class='row fofo'>
 						<div class='col-lg-4 text-center'>

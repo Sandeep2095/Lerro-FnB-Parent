@@ -9,6 +9,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	user-select: none;
 }
 
 p {
@@ -19,8 +20,12 @@ h2 {
 	font-family: 'Prague';
 }
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 .banner-content {
-	line-height: 35px;
+	line-height: 25px;
 	letter-spacing: 1px;
 	word-spacing: 1px;
 	padding-right: 5px;
@@ -154,13 +159,26 @@ label {
 /* Start Franchise Page */
 .franchise-top-banner {
 	position: relative;
+	object-fit: cover;
+	width: 100%;
+}
+
+.franchise-top-banner img {
+	width: 100%;
+	height: 100vh;
 }
 
 .franchise-top-form {
 	position: absolute;
-	top: 70px;
+	top: 75px;
 	left: 50%;
 	width: 35%;
+}
+
+.why-choose {
+	color: black;
+	background-color: #ffad00;
+	padding: 50px;
 }
 
 .why-choose-content {
@@ -168,7 +186,7 @@ label {
 	padding-left: 30px;
 	padding-right: 25px;
 	padding-bottom: 30px;
-	font-size: 11px;
+	font-size: 13px;
 }
 
 .row {
@@ -195,16 +213,6 @@ label {
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 40px;
 	margin-left: -50px;
-}
-
-.why-choose {
-	color: black;
-	background-color: #ffad00;
-	padding: 50px;
-}
-
-.why-choose-content {
-	font-size: 11px;
 }
 
 .image-right {
@@ -266,28 +274,8 @@ li {
 	padding-right: 10px;
 }
 
-.accordion {
-	background-color: #fff;
-	color: #444;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-	font-size: 13px;
-	transition: 0.4s;
-}
-
-.active {
-	background-color: #fff;
-}
-
-.panel {
-	padding: 0 54px;
-	display: none;
-	background-color: white;
-	overflow: hidden;
+.accordion h2 {
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* End Franchise Page */
@@ -318,6 +306,7 @@ li {
 		width: 100%;
 		height: auto;
 	}
+
 	.welcome-btn {
 		margin-top: 0px;
 		margin-bottom: 20px;
@@ -329,13 +318,43 @@ li {
 		top: 15%;
 		padding: 0 20px;
 	}
-	.banner-div {
-		min-height: 1000px !important;
+
+	.franchise-top-banner img {
+		height: 1000px;
+		object-fit: cover;
 	}
+
 	.banner-content {
 		padding: 0 20px;
 		font-size: 14px;
 		word-spacing: 0px;
 		line-height: 20px;
+	}
+
+	/* WhyChoose */
+
+	.why-choose {
+		color: black;
+		background-color: #ffad00;
+		padding: 10px;
+	}
+
+	.why-choose-content {
+		padding: 6px 0px 0px 0px;
+		font-size: 10px;
+	}
+
+	.why-choose-points {
+		font-family: 'Montserrat', sans-serif;
+		margin-top: 40px;
+		margin-left: 10px;
+	}
+
+	/* Our Service */
+	.our-services {
+		font-family: 'Merriweather', serif;
+		letter-spacing: 2px;
+		font-size: 40px;
+		color: #feaf00;
 	}
 }

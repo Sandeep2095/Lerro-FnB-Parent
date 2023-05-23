@@ -1,17 +1,21 @@
 import React from 'react';
-// import Banner from '../components/shared/banner/Banner';
-// import img from '../assets/CONTACT-US.jpg';
-// import img2 from '../assets/director-img.jpg';
+
 import img3 from '../assets/local9.png';
-// import n1 from '../assets/one.png';
-// import n2 from '../assets/two.png';
-// import n3 from '../assets/three.png';
-// import n4 from '../assets/four.png';
-// import check from '../assets/check.png';
+import BannerForm from './Franchise/BannerForm';
+import WhyChoose from './Franchise/WhyChoose';
+import OurService from './Franchise/OurService';
+import GameChanger from './Franchise/GameChanger';
+import CountCards from './Franchise/CountCards';
+import Faqs from './Franchise/Faqs';
+
+
 
 const Franchise = () => {
 	return (
 		<div className='franchise-container'>
+			{/* businessform */}
+			<BannerForm />
+
 			{/* Card no. 1 */}
 			<div class='container my-5'>
 				<div class='row'>
@@ -47,18 +51,20 @@ const Franchise = () => {
 				</div>
 			</div>
 
-			{/* Cards */}
+			{/* WhyChoose Yellow And Black Cards */}
+			<WhyChoose />
 
 			{/* Our Service */}
-		
+			<OurService />
 
 			{/* Game Changer */}
-			
+			<GameChanger />
 
 			{/* Counts Cards */}
-			
+			<CountCards />
 
 			{/* FAQ'S */}
+			<Faqs />
 		</div>
 	);
 };

@@ -1,4 +1,5 @@
 import React from 'react';
+import img2 from '../../assets/director-img.jpg';
 
 const GameChanger = () => {
 	return (
@@ -20,7 +21,7 @@ const GameChanger = () => {
 							THE GAME CHANGER <b style={{ color: '#fbaa1a' }}>OF THE INDUSTRY</b>
 						</h2>
 						<br />
-						<p class=' banner-content'>
+						<p class='banner-content'>
 							A prolific restaurateur, Priyank Sukhija has been successful in bringing
 							a wave of innovation in the restaurant industry. Born in a family of
 							lawyers, he became the only businessman in the family, he opened the
