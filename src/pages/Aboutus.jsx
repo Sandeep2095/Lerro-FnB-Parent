@@ -39,7 +39,7 @@ const Aboutus = () => {
 								<br />
 							</p>
 						</div>
-						<div className='col-md-5 text-center mb-md-5 mb-sm-3'>
+						<div className='col-md-5 text-center mb-md-5 mb-4'>
 							<img
 								alt='about'
 								className='aboutimage aboutus-banner-image'
@@ -54,7 +54,7 @@ const Aboutus = () => {
 					</div>
 				</div>
 			</div>
-			<div>
+			<div className='mb-3'>
 				<Card
 					title={'The Game Changer'}
 					para={
@@ -63,13 +63,13 @@ const Aboutus = () => {
 				/>
 			</div>
 			<div>
-				<div className='container mb-5'>
+				<div className='container my-5'>
 					<h2 className='text-center ml-1' style={{ fontFamily: 'Prague' }}>
 						THE MAN BEHIND <b style={{ color: '#fbaa1a' }}> THE LERRO</b>
 					</h2>
 					<br />
 					<div className='row'>
-						<div className='col-lg-4 text-center'>
+						<div className='col-lg-4 text-center mb-4'>
 							<img alt='Local' className='priyank-image' src={image2} width='80%' />
 						</div>
 						<div className='col-lg-8 text-left'>
@@ -90,7 +90,7 @@ const Aboutus = () => {
 				</div>
 			</div>
 			<div className='container-fluid'>
-				<div className='container mb-md-5 mb-sm-4'>
+				<div className='container mb-5'>
 					<h2 className='text-center ml-1' style={{ fontFamily: 'Prague' }}>
 						JOIN <b style={{ color: '#fbaa1a' }}>OUR FAMILY</b>
 					</h2>
@@ -107,20 +107,17 @@ const Aboutus = () => {
 								Restaurants provides you with a large existing customer base besides the
 								added advantage of nation-wide recognition.
 							</p>
-							<a
-								className='btn mbottomp btn mtop'
-								routerlink='/franchising'
+							<button
+								className='btn mbottomp btn mtop '
 								style={{
 									boxShadow:
 										'0 4px 8px 0 rgba(0, 0, 0, 0.2) 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
 									backgroundColor: '#fbac29',
-									marginBottom: '20px',
+									margin: '20px',
 								}}
-								ng-reflect-router-link='/franchising'
-								href='/franchising'
 							>
 								FRANCHISE WITH US
-							</a>
+							</button>
 						</div>
 						<div className='col-md-4 text-center'>
 							<img alt='about' className='img-fluid banner-image' src={image3} />

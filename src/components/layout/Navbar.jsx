@@ -54,7 +54,7 @@ const Navbar = () => {
 
 				<div className='collapse navbar-collapse' id='navbarNav'>
 					<div className='mx-auto'></div>
-					<ul style={{ alignItems: 'right' }} className='navbar-nav'>
+					<ul style={{ alignItems: 'center' }} className='navbar-nav'>
 						{navLinks.map((nav) => (
 							<li
 								className={`nav-item ${nav.title === 'franchise' && 'franchise-link'}`}

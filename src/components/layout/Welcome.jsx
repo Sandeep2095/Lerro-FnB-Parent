@@ -24,15 +24,15 @@ const Welcome = () => {
 							</p>
 							<div class='row justify-content-around mt-0'>
 								<div class='col-md-8 text-center welcome-btn'>
-									<a
+									<button
 										href='#!'
 										target='_blank'
 										rel='noreferrer'
 										class='btn wbtn '
-										style={{ color: '#fff' }}
+										// style={{ color: '#fff' }}
 									>
 										JOIN THE JOURNEY
-									</a>
+									</button>
 								</div>
 							</div>
 						</div>

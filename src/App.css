@@ -50,7 +50,7 @@ h2 {
 	color: #fff;
 	text-align: center;
 	vertical-align: middle;
-	background-color: #000;
+	background-color: #fcb21b;
 	border-radius: 4px;
 	padding: 10px 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -360,5 +360,13 @@ li {
 		letter-spacing: 2px;
 		font-size: 40px;
 		color: #feaf00;
+	}
+
+	.careers-style {
+		padding: 2%;
+	}
+
+	.career-strong {
+		margin: 20px;
 	}
 }

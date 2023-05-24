@@ -44,7 +44,7 @@ const Careers = () => {
 								<div class='row mt-3'>
 									<div class='col-md-12 col-sm-12'>
 										<h5>
-											<strong>Steep learning curve</strong>
+											<strong className='career-strong'>Steep learning curve</strong>
 										</h5>
 										<p class='banner-content'>
 											Talent and merit are rewarded at First Fiddle Restaurants. Add value,
@@ -54,7 +54,7 @@ const Careers = () => {
 									</div>
 									<div class='col-md-12 col-sm-12'>
 										<h5>
-											<strong>Growth opportunities</strong>
+											<strong className='career-strong'>Growth opportunities</strong>
 										</h5>
 										<p class='banner-content'>
 											{' '}
@@ -65,7 +65,7 @@ const Careers = () => {
 									</div>
 									<div class='col-md-12 col-sm-12'>
 										<h5>
-											<strong>Exciting work environment</strong>
+											<strong className='career-strong'>Exciting work environment</strong>
 										</h5>
 										<p class='banner-content'>
 											{' '}
@@ -77,7 +77,7 @@ const Careers = () => {
 								</div>
 							</div>
 
-							<div class='col-md-6 col-sm-12'>
+							<div class='col-md-6 col-sm-12 my-3'>
 								<div
 									class='card'
 									style={{ boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px' }}
